@@ -36,7 +36,7 @@ dostarczony handler.
 
 %build
 aclocal
-autoconf
+%{__autoconf}
 %configure
 %{__make}
 

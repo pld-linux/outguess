@@ -26,12 +26,11 @@ use any kind of data, as long as a handler is provided.
 %setup  -q -n %{name}
 
 %build
-%configure2_13
+%configure
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
 %{__make} install install_prefix=$RPM_BUILD_ROOT

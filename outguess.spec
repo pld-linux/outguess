@@ -5,8 +5,6 @@ Version:	0.2
 Release:	2
 License:	BSD
 Group:		Applications/File
-Group(de):	Applikationen/Datei
-Group(pl):	Aplikacje/Pliki
 Source0:	http://www.outguess.org/%{name}-%{version}.tar.gz
 URL:		http://www.outguess.org/
 BuildRequires:	autoconf

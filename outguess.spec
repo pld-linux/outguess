@@ -1,7 +1,8 @@
 Summary:	Universal steganographic tool
+Summary(pl);	Uniwersalne narzêdzie stenograficzne
 Name:		outguess
 Version:	0.2
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/File
 Group(de):	Applikationen/Datei
@@ -22,7 +23,15 @@ and JPEG image formats are supported. In the next paragraphs, images
 will be used as concrete example of data objects, though OutGuess can
 use any kind of data, as long as a handler is provided.
 
-#%description -l pl
+%description -l pl
+OutGuess to uniwersalne narzêdzie stenograficzne pozwalaj±ce na
+wstawianie ukrytych informacji do nadmiarowych bitów danych. Rodzaj
+danych nie ma znaczenia dla serca OutGuess. Polega on na handlerach
+obs³uguj±cych okre¶lone formaty danych, które odczytuj± nadmiarowe
+bity i zapisuj± je z powrotem po modyfikacji. W tej wersji obs³ugiwane
+s± formaty PNM i JPEG. Dokumentacja jest pisana na przyk³adzie
+obrazków, ale OutGuess mo¿e dzia³aæ na dowolnych danych, do których ma
+dostarczony handler.
 
 %prep
 %setup  -q -n %{name}

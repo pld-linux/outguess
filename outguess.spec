@@ -35,7 +35,7 @@ dostarczony handler.
 %setup  -q -n %{name}
 
 %build
-aclocal
+%{__aclocal}
 %{__autoconf}
 %configure
 %{__make}

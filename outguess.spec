@@ -6,6 +6,7 @@ Release:	2
 License:	BSD
 Group:		Applications/File
 Source0:	http://www.outguess.org/%{name}-%{version}.tar.gz
+# Source0-md5:	321f23dc0badaba4350fa66b59829064
 URL:		http://www.outguess.org/
 BuildRequires:	autoconf
 BuildRequires:	automake

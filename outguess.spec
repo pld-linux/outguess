@@ -46,7 +46,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
 %{__make} install install_prefix=$RPM_BUILD_ROOT
 
-gzip -9nf README ChangeLog 
+gzip -9nf README ChangeLog
 
 %clean
 rm -rf $RPM_BUILD_ROOT

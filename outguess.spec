@@ -7,7 +7,9 @@ Group:		Applications/File
 Group(de):	Applikationen/Datei
 Group(pl):	Aplikacje/Pliki
 Source0:	http://www.outguess.org/%{name}-%{version}.tar.gz
-URL:		http://www.outguess.org
+URL:		http://www.outguess.org/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,6 +28,8 @@ use any kind of data, as long as a handler is provided.
 %setup  -q -n %{name}
 
 %build
+aclocal
+autoconf
 %configure
 %{__make}
 

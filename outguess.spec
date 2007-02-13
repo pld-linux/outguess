@@ -1,5 +1,5 @@
 Summary:	Universal steganographic tool
-Summary(pl.UTF-8):   Uniwersalne narzędzie stenograficzne
+Summary(pl.UTF-8):	Uniwersalne narzędzie stenograficzne
 Name:		outguess
 Version:	0.2
 Release:	2

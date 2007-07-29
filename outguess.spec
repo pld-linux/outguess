@@ -1,5 +1,5 @@
 Summary:	Universal steganographic tool
-Summary(pl.UTF-8):	Uniwersalne narzędzie stenograficzne
+Summary(pl.UTF-8):	Uniwersalne narzędzie steganograficzne
 Name:		outguess
 Version:	0.2
 Release:	2
@@ -23,7 +23,7 @@ will be used as concrete example of data objects, though OutGuess can
 use any kind of data, as long as a handler is provided.
 
 %description -l pl.UTF-8
-OutGuess to uniwersalne narzędzie stenograficzne pozwalające na
+OutGuess to uniwersalne narzędzie steganograficzne pozwalające na
 wstawianie ukrytych informacji do nadmiarowych bitów danych. Rodzaj
 danych nie ma znaczenia dla serca OutGuess. Polega on na handlerach
 obsługujących określone formaty danych, które odczytują nadmiarowe
